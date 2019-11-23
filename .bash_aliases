@@ -12,3 +12,6 @@ alias vim=nvim
 # ls
 alias ls='ls --color=auto --group-directories-first'
 alias dir='dir --color=auto'
+
+# dotfiles
+alias config='/usr/bin/git --git-dir=$HOME/.dotfiles/ --work-tree=$HOME'
