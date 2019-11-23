@@ -1,0 +1,14 @@
+# bash_aliases
+# pacman
+alias pacman="sudo pacman"
+
+# light
+alias light="sudo light"
+
+# nvim
+alias vi=nvim
+alias vim=nvim
+
+# ls
+alias ls='ls --color=auto --group-directories-first'
+alias dir='dir --color=auto'
