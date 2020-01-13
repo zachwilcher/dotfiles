@@ -37,6 +37,9 @@ bindsym $mod+Delete exec i3lock --color=002b36 --ignore-empty-password
 # start a terminal
 bindsym $mod+Return exec kitty
 
+# start a firefox instance
+bindsym $mod+b exec firefox
+
 # kill focused window
 bindsym $mod+q kill
 
@@ -227,7 +230,10 @@ client.background       #002b36
 
 exec --xsetroot -solid = '#002b36'
 
-
 # autostart kitty 
 exec kitty
+
+
+
+
 

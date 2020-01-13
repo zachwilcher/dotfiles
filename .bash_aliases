@@ -15,3 +15,7 @@ alias dir='dir --color=auto'
 
 # dotfiles
 alias config='/usr/bin/git --git-dir=$HOME/.dotfiles/ --work-tree=$HOME'
+
+# protonvpn
+alias protonvpn='sudo protonvpn'
+

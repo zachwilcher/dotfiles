@@ -6,8 +6,8 @@ set conceallevel=1
 
 set tabstop=8 "tabs are 8 spaces
 set softtabstop=4 "tabs feel like 4 spaces
-set shiftwidth=4 "autoindent tabs are 4 spaces
-set expandtab "tabs are spaces
+" set shiftwidth=4 "autoindent tabs are 4 spaces
+" set expandtab "tabs are spaces
 
 set number
 set relativenumber
