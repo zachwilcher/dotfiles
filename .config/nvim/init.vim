@@ -2,22 +2,10 @@
 
 source `=stdpath('config')."/plugged.vim"`
 
-set conceallevel=1
+set number relativenumber
 
-set tabstop=8 "tabs are 8 spaces
-set softtabstop=4 "tabs feel like 4 spaces
-" set shiftwidth=4 "autoindent tabs are 4 spaces
-" set expandtab "tabs are spaces
-
-set number
-set relativenumber
-
-syntax on
-
-set incsearch 
-set hlsearch
-
-tnoremap <Esc> <C-\><C-n> "termianl mode escape
+"termianl mode escape
+tnoremap <Esc> <C-\><C-n>
 
 let g:clipboard = {
     \ 'name': 'myClip',

@@ -231,8 +231,7 @@ client.background       #002b36
 exec --xsetroot -solid = '#002b36'
 
 # autostart kitty 
-exec kitty
-
+exec kitty -o allow_remote_control=yes -o enabled_layouts=tall
 
 
 
