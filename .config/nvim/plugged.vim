@@ -1,5 +1,7 @@
 call plug#begin(stdpath('data').'/plugged' ) "vim plug
 
+    Plug 'neomake/neomake'
+	
     Plug 'https://github.com/iCyMind/NeoSolarized'   
     
     Plug 'https://github.com/sirver/UltiSnips'
@@ -43,6 +45,9 @@ call plug#begin(stdpath('data').'/plugged' ) "vim plug
 
             
 call plug#end()
+
+"neomake
+call neomake#configure#automake('w')
 
 "solarized
 colorscheme NeoSolarized
