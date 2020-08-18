@@ -1,6 +1,10 @@
 #!/usr/bin/bash
 # bash_aliases
 
+#systemctl
+
+alias hibernate="sudo systemctl hibernate"
+
 # pacman
 alias pacman="sudo pacman"
 
