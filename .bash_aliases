@@ -29,4 +29,3 @@ alias protonvpn="sudo protonvpn"
 # misc
 alias why="echo why not?"
 
-

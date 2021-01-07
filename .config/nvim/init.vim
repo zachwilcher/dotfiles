@@ -24,4 +24,3 @@ let g:clipboard = {
 "enable default filetype indentation
 filetype plugin indent on
 
-
