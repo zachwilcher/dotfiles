@@ -30,7 +30,7 @@ HISTFILESIZE=10000
 
 shopt -s globstar
 
-
+export EDITOR=/usr/bin/nvim
 
 if [ -r .bash_aliases ]; then
     . .bash_aliases
@@ -47,4 +47,8 @@ if ! shopt -oq posix; then
         . /etc/bash_completion
     fi
 fi
+
+function replace {
+	find $3 -type f -exec sed =i '/s/$2/$1/g';
+}
 
