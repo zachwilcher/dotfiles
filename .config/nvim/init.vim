@@ -24,8 +24,6 @@ autocmd FileType typescript call UseExpandTab(2)
 autocmd FileType solidity call UseExpandTab(2)
 
 
-
-
 "surround word 
 nnoremap <leader>( wbi(<esc>ea)<esc>
 nnoremap <leader>{ wbi{<esc>ea}<esc>
@@ -46,5 +44,6 @@ nnoremap <leader>t <c-w>n<c-w>J:resize 10<cr>:term<cr>a
 let $VIMINIT = join([stdpath("config"), "init.vim"], "/")
 
 let $VIMPLUGGED = join([stdpath("config"), "plugged.vim"], "/")
-" source $VIMPLUGGED
+
+source $VIMPLUGGED
 
