@@ -1,0 +1,12 @@
+let g:netrw_dirhistmax  =10
+let g:netrw_dirhistcnt =9
+let g:netrw_dirhist_9='/home/zach/Games/factorio/mods/zacs-aai-tweaks/zacs-aai-tweaks_0.0.1'
+let g:netrw_dirhist_8='/home/zach/Downloads/PokehaanCraft-1.1.2-ServerFiles/config/pokehaancraftadd'
+let g:netrw_dirhist_7='/home/zach/.local/share/Steam/steamapps/workshop/content/294100/2056706586/ModSpecific/EPOE/Patches'
+let g:netrw_dirhist_6='/home/zach/.config/unity3d/Ludeon Studios/RimWorld by Ludeon Studios/Profiling'
+let g:netrw_dirhist_5='/home/zach/Downloads/factorio-data/core/prototypes'
+let g:netrw_dirhist_4='/home/zach/Games/minecraft/instances/modpack/.minecraft/config/astralsorcery'
+let g:netrw_dirhist_3='/home/zach/Games/minecraft/instances/modpack/.minecraft/config/abyssalcraft'
+let g:netrw_dirhist_2='/home/zach/Desktop/cpp/matrix'
+let g:netrw_dirhist_1='/home/zach/Logs'
+let g:netrw_dirhist_0='/home/zach/.local/share/Steam/steamapps/common/Factorio/data/core/lualib'

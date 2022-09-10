@@ -2,7 +2,6 @@
 # bash_aliases
 
 #systemctl
-
 alias hibernate="sudo systemctl hibernate"
 
 # pacman
@@ -12,13 +11,13 @@ alias pacman="sudo pacman"
 alias light="sudo light"
 
 # nvim
-alias vi="nvim"
-alias vim="nvim"
+alias vi="vim"
+alias vim="vim"
 alias neovim="nvim"
-alias vimm="nvim"
-alias viim="nvim"
-alias vvim="nvim"
-alias vimm="nvim"
+alias vimm="vim"
+alias viim="vim"
+alias vvim="vim"
+alias vimm="vim"
 
 # ls
 alias ls="ls --color=auto --group-directories-first"
@@ -45,8 +44,6 @@ alias mkrid="mkdir"
 #rm
 alias rm="rm --dir --verbose"
 
-
-
 # dotfiles
 alias config="/usr/bin/git --git-dir=$HOME/.dotfiles/ --work-tree=$HOME"
 
@@ -55,10 +52,5 @@ alias protonvpn="sudo protonvpn"
 
 # misc
 alias why="echo why not?"
-
-
 alias help="echo '$USER is a little bitch and needs help'"
-
-
-
 

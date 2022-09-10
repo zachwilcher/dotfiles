@@ -22,6 +22,7 @@ autocmd FileType xml call UseExpandTab(2)
 autocmd FileType json call UseExpandTab(2)
 autocmd FileType typescript call UseExpandTab(2)
 autocmd FileType solidity call UseExpandTab(2)
+autocmd FileType haskell call UseExpandTab(2)
 
 
 "surround word 
@@ -31,6 +32,7 @@ nnoremap <leader>[ wbi[<esc>ea]<esc>
 nnoremap <leader>' wbi'<esc>ea'<esc>
 nnoremap <leader>" wbi"<esc>ea"<esc>
 nnoremap <leader>< wbi<<esc>ea><esc>
+nnoremap <leader>$ wbi$<esc>ea$<esc>
 
 "replaces character with space and stores character in main register
 nnoremap <leader>x vyr<space>

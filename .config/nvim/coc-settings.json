@@ -1,0 +1,13 @@
+{
+  "languageserver": 
+  {
+    "solidity": {
+      "command": "solc-dev",
+      "args": ["--lsp"],
+      "trace.server": "verbose",
+      "rootPatterns": [".git/"],
+      "filetypes": ["solidity"]
+    }
+  }
+
+}
